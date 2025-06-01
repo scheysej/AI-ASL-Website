@@ -2,6 +2,16 @@
 
 body {
   padding: 0px 30px;
+  color: #161616;
   background-color: #fdfdfd;
   font-family: 'Poppins';
+}
+
+progress[value]::-webkit-progress-value {
+  border-radius: 10em;
+  background: rgb(83, 255, 56);
+}
+progress[value]::-moz-progress-bar {
+  border-radius: 10em;
+  background: #42b958;
 }
